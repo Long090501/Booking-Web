@@ -1,0 +1,144 @@
+.wrapper {
+    height: 60px;
+    position: sticky;
+    top: 0;
+    background-color: greenyellow;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.leftWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.logo {
+    width: 110px;
+}
+
+.logo button {
+    background-color: transparent;
+    border: none;
+    height: 60px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navWrapper button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    height: 60px;
+    padding: 0 1rem;
+    cursor: pointer;
+    color: var(--blue);
+    transition: background-color 500ms;
+}
+
+.navWrapper button:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.rightWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.accountWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.accountWrapper button {
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--blue);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: color 500ms, background-color 500ms;
+}
+
+.accountWrapper button:hover {
+    color: white;
+    background-color: var(--blue);
+}
+
+.userWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.userButton {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--blue);
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 500ms, background-color 500ms;
+}
+
+.userButton:hover {
+    color: white;
+    background-color: var(--blue);
+}
+
+.dropdownWrapper {
+    position: fixed;
+    top: 48px;
+    right: 125px;
+    width: 180px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 2px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.dropdownButton {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--blue);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 500ms;
+}
+
+.dropdownButton:hover {
+    background-color: rgba(0, 0, 0, 0.15)
+}

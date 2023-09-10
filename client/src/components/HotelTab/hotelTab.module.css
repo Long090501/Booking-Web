@@ -1,0 +1,94 @@
+.wrapper {
+    padding: 30px 0;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tabBar {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabButtonFocus {
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid var(--blue);
+    padding: 10px 20px;
+    color: var(--blue);
+    transition: border-bottom 500ms, color 500ms;
+    cursor: pointer;
+}
+
+.tabButton {
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid var(--gray);
+    padding: 10px 20px;
+    color: var(--gray);
+    transition: border-bottom 500ms, color 500ms;
+    cursor: pointer;
+}
+
+.loadingHotels {
+    width: 1200px;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridHotels {
+    width: 1230px;
+    padding: 30px;
+    margin: auto;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gridItem {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.imageButton {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.gridImage {
+    width: 300px;
+    height: 200px;
+}
+
+.nameButton {
+    background-color: white;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.gridName {
+    font-size: 14px;
+}
+
+.gridName:hover {
+    text-decoration-line: underline;
+}
+
+.gridAddress {
+    font-size: 14px;
+    color: var(--blue);
+}
